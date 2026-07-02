@@ -1,0 +1,55 @@
+:root {
+  --prussian-blue: #0f172a;
+  --cerulean: #256d8a;
+  --sky-surge: #3bc2e9;
+  --blue-bell: #439add;
+  --royal-blue: #4b72d0;
+  --indigo-bloom: #5b21b6;
+  --black: #000000;
+  --white: #ffffff;
+
+  --bg-tela-play: linear-gradient(180deg, #000 9.62%, #0f172a 50%, #000 89.42%);
+  --bg-tela-como-jogar: linear-gradient(
+    233deg,
+    #000 7.81%,
+    #4b72d0 110.45%,
+    #000 124.19%
+  );
+  --bg-tela-sobre: linear-gradient(
+    138deg,
+    #000 9.02%,
+    #4b72d0 112.7%,
+    #000 126.57%
+  );
+
+  --lg-word: linear-gradient(89deg, #439add 16.19%, #4b72d0 44.56%);
+  --lg-button: linear-gradient(83deg, #5b21b6 -8.66%, #4b72d0 112.92%);
+
+  --font-family-fredoka: "Fredoka", sans-serif;
+  --font-family-nunito: "Nunito", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-fredoka);
+}
+h4,
+h5,
+h6,
+p {
+  font-family: var(--font-family-nunito);
+}
